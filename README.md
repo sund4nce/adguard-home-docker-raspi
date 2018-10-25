@@ -2,8 +2,6 @@
 
 AdGuard-Home Docker container for Raspberry Pi (tested with 3+, Zero W).
 
-forked from Ash McKenzie (https://gitlab.com/ashmckenzie/adguard-home-docker)
-
 ## Trying out
 
 `docker run --rm -ti -p 53:53/udp -p 53:53/tcp -p 3000:3000 mort3m/adguard-home-raspi`
@@ -38,3 +36,7 @@ You can now run the container in the background:
 ## Building
 
 If you'd like to build your own image, simply run `make build`.
+
+# Thanks
+
+Ash McKenzie (https://gitlab.com/ashmckenzie/adguard-home-docker)
