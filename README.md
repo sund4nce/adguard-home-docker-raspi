@@ -1,5 +1,7 @@
 # AdGuardHome Docker
 
+AdGuard-Home Docker container for Raspberry Pi (tested with 3+, Zero W).
+
 forked from Ash McKenzie (https://gitlab.com/ashmckenzie/adguard-home-docker)
 
 ## Trying out
