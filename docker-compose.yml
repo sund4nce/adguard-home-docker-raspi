@@ -1,0 +1,15 @@
+version: '3'
+services:
+  adguard-home:
+    image: mort3m/test:latest
+    container_name: adguard-home
+    restart: always
+    network_mode: bridge
+    volumes:
+      - adguard-home-data:/data
+    ports:
+      - "53:53"
+      - "3000:1338"
+volumes:
+  adguard-home-data:
+    driver: local
