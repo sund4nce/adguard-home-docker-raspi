@@ -9,7 +9,7 @@ services:
       - adguard-home-data:/data
     ports:
       - "53:53"
-      - "3000:1338"
+      - "1337:3000"
 volumes:
   adguard-home-data:
     driver: local
